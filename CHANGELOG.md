@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-podman/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-podman/compare/0.1.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.4 to 1.0.5 [\#2](https://github.com/buluma/ansible-role-podman/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.1.0](https://github.com/buluma/ansible-role-podman/tree/0.1.0) (2022-04-23)
 
 [Full Changelog](https://github.com/buluma/ansible-role-podman/compare/fe97fc349c60be57aa8c748667f944c46f14ec4f...0.1.0)
