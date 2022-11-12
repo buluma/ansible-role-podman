@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.4](https://github.com/buluma/ansible-role-podman/tree/0.1.4) (2022-10-08)
+
+[Full Changelog](https://github.com/buluma/ansible-role-podman/compare/0.1.3...0.1.4)
+
 ## [0.1.3](https://github.com/buluma/ansible-role-podman/tree/0.1.3) (2022-05-13)
 
 [Full Changelog](https://github.com/buluma/ansible-role-podman/compare/0.1.2...0.1.3)
