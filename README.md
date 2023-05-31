@@ -4,11 +4,12 @@ Install and configure Podman on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
 |------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-podman/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-podman/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-podman/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-podman)|[![quality](https://img.shields.io/ansible/quality/58938)](https://galaxy.ansible.com/buluma/podman)|[![downloads](https://img.shields.io/ansible/role/d/58938)](https://galaxy.ansible.com/buluma/podman)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-podman.svg)](https://github.com/buluma/ansible-role-podman/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-podman.svg)](https://github.com/buluma/ansible-role-podman/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-podman.svg)](https://github.com/buluma/ansible-role-podman/pulls/)|
+|[![github](https://github.com/buluma/ansible-role-podman/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-podman/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-podman/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-podman)|[![quality](https://img.shields.io/ansible/quality/58938)](https://galaxy.ansible.com/buluma/podman)|[![downloads](https://img.shields.io/ansible/role/d/58938)](https://galaxy.ansible.com/buluma/podman)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-podman.svg)](https://github.com/buluma/ansible-role-podman/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-podman.svg)](https://github.com/buluma/ansible-role-podman/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-podman.svg)](https://github.com/buluma/ansible-role-podman/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
-This example is taken from `molecule/default/converge.yml` and is tested on each push, pull request and release.
+This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-podman/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
+
 ```yaml
 ---
 - name: converge
@@ -20,7 +21,8 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
     - role: buluma.podman
 ```
 
-The machine needs to be prepared. In CI this is done using `molecule/default/prepare.yml`:
+The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-podman/blob/master/molecule/default/prepare.yml):
+
 ```yaml
 ---
 - name: prepare
@@ -32,10 +34,12 @@ The machine needs to be prepared. In CI this is done using `molecule/default/pre
     - role: buluma.bootstrap
 ```
 
+Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
 
 ## [Role Variables](#role-variables)
 
-The default values for the variables are set in `defaults/main.yml`:
+The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-podman/blob/master/defaults/main.yml):
+
 ```yaml
 ---
 # defaults file for podman
@@ -54,21 +58,22 @@ podman_user: ""
 
 ## [Requirements](#requirements)
 
-- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-podman/blob/main/requirements.txt).
+- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-podman/blob/master/requirements.txt).
 
-## [Status of used roles](#status-of-requirements)
+## [State of used roles](#state-of-used-roles)
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
 | Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
 
 ## [Dependencies](#dependencies)
 
 Most roles require some kind of preparation, this is done in `molecule/default/prepare.yml`. This role has a "hard" dependency on the following roles:
 
 - {'role': 'buluma.bootstrap'}
+
 ## [Context](#context)
 
 This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
@@ -83,27 +88,19 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|alpine|all|
-|debian|bullseye|
-|el|all|
-|fedora|35, 36|
-|opensuse|all|
-|ubuntu|jammy|
+|[Alpine](https://hub.docker.com/repository/docker/buluma/alpine/general)|all|
+|[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|bullseye|
+|[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|all|
+|[Fedora](https://hub.docker.com/repository/docker/buluma/fedora/general)|all|
+|[opensuse](https://hub.docker.com/repository/docker/buluma/opensuse/general)|all|
+|[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|jammy|
+|[Kali](https://hub.docker.com/repository/docker/buluma/kali/general)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done to:
 
 - The previous version.
 - The current version.
 - The development version.
-
-## [Exceptions](#exceptions)
-
-Some roles can't run on a specific distribution or version. Here are some exceptions.
-
-| variation                 | reason                 |
-|---------------------------|------------------------|
-| Debian:bookworm | No package matching 'podman' is available |
-
 
 If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-podman/issues)
 
@@ -113,8 +110,14 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-Apache-2.0
+[Apache-2.0](https://github.com/buluma/ansible-role-podman/blob/master/LICENSE).
 
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
+Please consider [sponsoring me](https://github.com/sponsors/buluma).
+
+### [Special Thanks](#special-thanks)
+
+Template inspired by [Robert de Bock](https://github.com/robertdebock)

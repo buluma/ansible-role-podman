@@ -19,14 +19,16 @@ galaxy_info:
         - all
     - name: Fedora
       versions:
-        - "35"
-        - "36"
+        - all
     - name: opensuse
       versions:
         - all
     - name: Ubuntu
       versions:
         - jammy
+    - name: Kali
+      versions:
+        - all
 
   galaxy_tags:
     - podman
