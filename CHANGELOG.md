@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-podman/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-podman/compare/0.1.4...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#9](https://github.com/buluma/ansible-role-podman/issues/9)
+- Update action [\#8](https://github.com/buluma/ansible-role-podman/issues/8)
+
 ## [0.1.4](https://github.com/buluma/ansible-role-podman/tree/0.1.4) (2022-10-08)
 
 [Full Changelog](https://github.com/buluma/ansible-role-podman/compare/0.1.3...0.1.4)
