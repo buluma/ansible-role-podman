@@ -1,10 +1,10 @@
-# [Ansible role podman](#podman)
+# Ansible role [podman](https://galaxy.ansible.com/ui/standalone/roles/buluma/podman/documentation)
 
 Install and configure Podman on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-podman/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-podman/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-podman.svg)](https://github.com/buluma/ansible-role-podman/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-podman.svg)](https://github.com/buluma/ansible-role-podman/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-podman.svg)](https://github.com/buluma/ansible-role-podman/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-podman/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-podman/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-podman.svg)](https://github.com/buluma/ansible-role-podman/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-podman.svg)](https://github.com/buluma/ansible-role-podman/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-podman.svg)](https://github.com/buluma/ansible-role-podman/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/podman)](https://galaxy.ansible.com/ui/standalone/roles/buluma/podman/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -110,13 +110,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-podman/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-podman/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
