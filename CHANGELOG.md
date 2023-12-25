@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-podman/tree/HEAD)
+## [0.1.5](https://github.com/buluma/ansible-role-podman/tree/0.1.5) (2023-12-24)
 
-[Full Changelog](https://github.com/buluma/ansible-role-podman/compare/0.1.4...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-podman/compare/0.1.4...0.1.5)
 
 **Closed issues:**
 
