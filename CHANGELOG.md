@@ -9,7 +9,6 @@
 - Bump dependabot/fetch-metadata from 1 to 2 [\#21](https://github.com/buluma/ansible-role-podman/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#18](https://github.com/buluma/ansible-role-podman/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#17](https://github.com/buluma/ansible-role-podman/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.4 to 1.0.5 [\#2](https://github.com/buluma/ansible-role-podman/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.3.0](https://github.com/buluma/ansible-role-podman/tree/0.3.0) (2024-01-20)
 
@@ -56,6 +55,10 @@
 ## [0.1.1](https://github.com/buluma/ansible-role-podman/tree/0.1.1) (2022-05-02)
 
 [Full Changelog](https://github.com/buluma/ansible-role-podman/compare/0.1.0...0.1.1)
+
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.4 to 1.0.5 [\#2](https://github.com/buluma/ansible-role-podman/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.1.0](https://github.com/buluma/ansible-role-podman/tree/0.1.0) (2022-04-23)
 
