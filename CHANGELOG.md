@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-podman/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-podman/compare/24.3.31...HEAD)
+
+**Closed issues:**
+
+- rebuild action [\#10](https://github.com/buluma/ansible-role-podman/issues/10)
+
 ## [24.3.31](https://github.com/buluma/ansible-role-podman/tree/24.3.31) (2024-03-29)
 
 [Full Changelog](https://github.com/buluma/ansible-role-podman/compare/0.3.0...24.3.31)
