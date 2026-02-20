@@ -50,7 +50,6 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 #     value: overlay
 #     section: storage
 podman_storage: []
-
 # You can start docker as a specific user other than "root".
 # podman_user: my_user
 podman_user: ""
