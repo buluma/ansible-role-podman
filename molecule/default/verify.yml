@@ -1,10 +1,10 @@
 ---
-- name: Verify
-  hosts: all
-  become: true
-  gather_facts: true
+  - name: Verify
+    hosts: all
+    become: true
+    gather_facts: true
 
-  tasks:
-    - name: Run podman --version
-      ansible.builtin.command:
-        cmd: podman --version
+    tasks:
+      - name: Run podman --version
+        ansible.builtin.command:
+          cmd: podman --version
