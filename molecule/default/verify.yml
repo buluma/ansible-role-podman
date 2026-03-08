@@ -5,6 +5,6 @@
   gather_facts: true
 
   tasks:
-  - name: Run podman --version
-    ansible.builtin.command:
-      cmd: podman --version
+    - name: Run podman --version
+      ansible.builtin.command:
+        cmd: podman --version
